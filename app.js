@@ -1,10 +1,7 @@
 var express    = require('express');
 var bodyParser = require('body-parser');
 var morgan     = require('morgan')
-var jquery 		 = require('jquery');
 var app        = express();
-
-// require('bootstrap');
 
 app.use(morgan('combined'));
 app.use(express.static(__dirname + '/public'));
