@@ -1,0 +1,19 @@
+{
+  "name": "michaelsdennis4.github.io",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelsdennis4/michaelsdennis4.github.io.git"
+  },
+  "author": "Michael Dennis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelsdennis4/michaelsdennis4.github.io/issues"
+  },
+  "homepage": "https://github.com/michaelsdennis4/michaelsdennis4.github.io"
+}
