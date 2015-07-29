@@ -1,7 +1,10 @@
 var express    = require('express');
 var bodyParser = require('body-parser');
 var morgan     = require('morgan')
+var jquery 		 = require('jquery');
 var app        = express();
+
+// require('bootstrap');
 
 app.use(morgan('combined'));
 app.use(express.static(__dirname + '/public'));
@@ -13,13 +16,8 @@ app.get('/', function(req, res){
   res.render('index', {name: 'Michael Dennis'})
 });
 
-// app.get('/fatality-rate', function(req, res){
-//   res.render('fatalities', {timeSinceFatality: 2, safetyData: safetyData.fatalities})
-// });
-
-// app.post('/report-fatality', function(req, res){
-//   safetyData["fatalities"].push(req.body.date);
-//   res.redirect('/');
-// });
+app.get('stylesheets/style.css', function(req, res) {
+	res.sendFile('stylesheets/style.css');
+});
 
 app.listen(process.env.port || 3000);
