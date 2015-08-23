@@ -2,35 +2,68 @@ body {
 
 }
 
-.navbar {
+.title {
 	font-family: 'Stint Ultra Expanded', cursive;
+	float: left;
 	text-align: center;
+	height: 70px;
+	line-height: 50px;
 	background-color: none;
 }
 
-.nav-left {
-	float: left;
+#title-left {
 	font-weight: 700;
 	background-color: white;
 	color: rgba(0,100,0,1);
 }
 
-.nav-right {
-	float: left;
+#title-right {
 	background-color: rgba(0,100,0,1);
 	color: white;
 }
 
 .sidebar {
+	float: left;
+	margin-left: 0;
 	background-color: rgba(0,100,0,1);
-	position: absolute;
-	left: 0;
 	height: 1000px;
 }
 
 .thumb {
-	margin-top: 200px;
+	margin-top: 60px;
 	margin-left: 10%;
 	width: 80%;
-	border-radius: 50%;
+	border-radius: 100px;
+}
+
+.menu {
+	width: 60%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Stint Ultra Expanded', cursive;
+	font-size: 18px;
+	color: white;
+}
+
+.item {
+	margin-bottom: 10px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+.panel {
+	float: left;
+	background-color: white;
+	height: 1000px;
 }
