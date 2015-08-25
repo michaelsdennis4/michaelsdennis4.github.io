@@ -4,7 +4,7 @@ console.log('main.js linked!');
 
 $('.item#about').on('click', function(event) {
 	event.preventDefault();
-	$('.panel').html('<h1>ABOUT</h1>');
+	$('.panel').html('');
 });
 
 $('.item#contact').on('click', function(event) {
