@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/michaelsdennis4/michaelsdennis4.github.io/issues"
   },
-  "homepage": "https://github.com/michaelsdennis4/michaelsdennis4.github.io"
+  "homepage": "https://github.com/michaelsdennis4/michaelsdennis4.github.io",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ejs": "^2.3.3"
+  },
+  "devDependencies": {}
 }
