@@ -9,12 +9,12 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.get('/', function(req, res){
-  res.render('index', {name: 'Michael Dennis'})
-});
-
 app.get('stylesheets/style.css', function(req, res) {
 	res.sendFile('stylesheets/style.css');
+});
+
+app.get('/', function(req, res){
+  res.render('index')
 });
 
 app.listen(app.get('port'), function() {
