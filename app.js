@@ -17,4 +17,6 @@ app.get('stylesheets/style.css', function(req, res) {
 	res.sendFile('stylesheets/style.css');
 });
 
-// app.listen(process.env.port || 3000);
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
