@@ -20,7 +20,16 @@ $('.item#github').on('click', function(event) {
   );
 });
 
-$('a#project1').on('click', function(event) {
+$('a#project4').on('click', function(event) {
+  event.preventDefault();
+  window.open(
+    "https://mathematics-review.herokuapp.com/",
+    "Mathematics Review",
+    "resizable,scrollbars,status"
+  );
+});
+
+$('a#project3').on('click', function(event) {
 	event.preventDefault();
 	window.open(
     "https://maria-niforos-antiques.herokuapp.com/",
@@ -38,7 +47,7 @@ $('a#project2').on('click', function(event) {
   );
 });
 
-$('a#project3').on('click', function(event) {
+$('a#project1').on('click', function(event) {
 	event.preventDefault();
 	window.open(
     "http://secure-sierra-4955.herokuapp.com/",
