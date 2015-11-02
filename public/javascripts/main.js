@@ -20,6 +20,15 @@ $('.item#github').on('click', function(event) {
   );
 });
 
+$('a#project5').on('click', function(event) {
+  event.preventDefault();
+  window.open(
+    "https://school-grade-book.herokuapp.com/",
+    "School Grades",
+    "resizable,scrollbars,status"
+  );
+});
+
 $('a#project4').on('click', function(event) {
   event.preventDefault();
   window.open(
