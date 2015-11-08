@@ -27,7 +27,7 @@ body {
 	float: left;
 	margin-left: 0;
 	background-color: rgba(0,100,0,0.8);
-	height: 2400px;
+	height: 550px;
 }
 
 .thumb {
@@ -93,4 +93,13 @@ body {
 img {
 	border: solid black 1px;
 	border-radius: 5px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+	.sidebar {
+		height: 2400px;
+	}
+
 }
